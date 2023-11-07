@@ -1,0 +1,71 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovationX</title>
+    <link rel="stylesheet" href="info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active"><b>Home</b></a>
+        <div class="dropdown">
+          <button class="dropbtn">Mathematics
+            
+          </button>
+          <div class="dropdown-content">
+            <a href="./mathInfo.html">Info</a>
+            <a href="./math.html">Register</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Economics 
+             
+            </button>
+            <div class="dropdown-content">
+              <a href="./econsInfo.html">Info</a>
+              <a href="./econs.html">Register</a>
+            </div>
+          </div>
+        <div class="dropdown">
+          <button class="dropbtn">Tech 
+          
+          </button>
+          <div class="dropdown-content">
+            <a href="./techInfo.html">Info</a>
+            <a href="./tech.html">Register</a>
+          </div>
+        </div> 
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="mathInfo" class="compInfo">
+        <div class="info-box">
+            <p class="compTitle">InnovationMath</span></p>
+            <p>
+                InnovationMath is our mathematics competition component of InnovationX. Students will do a math olympiad-styled paper within 75 minutes. Though, unlike other types of math competitions, this one will be fun, challenge your critical thinking and relate to real world concepts! 
+                <br>
+                The competition will contain questions of similar levels to <a href="https://drive.google.com/file/d/1wsS1rUZZm6eZ0NrekRJnzjM1GhFtNQBV/view">this sample test</a>.
+                <br>
+                The event will be at 4:30pm, 1st December, 2023 at UWCSEA East. More details will be sent in an email.
+                <br>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</body>
+
