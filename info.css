@@ -115,3 +115,22 @@ ol li::marker {
   font-weight: 700;
   margin-right: 10px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+  .compTitle{
+    font-size: 40px;
+  }
+  .compInfo{
+    font-size: 18px;
+    margin-top: 50px;
+    margin: 20px;
+  }
+
+  body{
+    background: linear-gradient(135deg, #000000, #020f1c);
+  }
+
+
+}
